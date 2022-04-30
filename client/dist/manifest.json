@@ -31,12 +31,12 @@
       "type": "image/png"
     }
   ],
-  "name": "text-editor",
+  "name": "Just Another Text Editor",
   "short_name": "JATE",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "/",
-  "description": "Text Editor",
+  "description": "A Text Editor PWA",
   "background_color": "#236cc4",
   "theme_color": "#236cc4"
 }

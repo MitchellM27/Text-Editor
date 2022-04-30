@@ -19,7 +19,7 @@ export const getDb = async (value) => {
   const objStore = tx.objectStore('jate');
   const req = objStore.getAll()
   const res = await req;
-  console.log('data saved to the jateDB', res);
+  console.log('data retrieved from jateDB', res);
 };
 
 export const putDb = async (id, value) => {
